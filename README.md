@@ -12,13 +12,13 @@ Created and maintained by Md Abrar Jahin `<abrar.jahin.2652@gmail.com, md-jahin@
 
 ## Datasets
 
-* Extended Datasets
+*Extended Datasets*
+
 Each dataset contains a column of cleaned tweets which was obtained by preprocessing the raw tweets and comments, accompanied by sentiment label of negative (-1), neutral (0), and posititve (1). 
 
-* External Datasets
+*External Datasets*
 
-External Tweets and Comments were made on Narendra Modi and other leaders as well as people's opinion towards the next prime minister of India (in the context with g
-neral Elections Held In India - 2019). The external datasets were created with the help of the Tweepy and Reddit Apis. 
+External Tweets and Comments were made on Narendra Modi and other leaders as well as people's opinion towards the next prime minister of India (in the context with general elections held in India - 2019). The external datasets were created with the help of the Tweepy and Reddit Apis. 
 
 | Datasets  | Description |
 | ------------- | ------------- |
