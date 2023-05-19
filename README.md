@@ -5,7 +5,9 @@ The code repository for the Nature Scientific Reports (2023) paper
 
 
 
+<!---
 ![Visualizations of some COVID-19 tweets](https://github.com/pdebench/PDEBench/blob/main/pdebench_examples.PNG)
+--->
 
 
 Created and maintained by Md Abrar Jahin `<abrar.jahin.2652@gmail.com, md-jahin@oist.jp>`.
