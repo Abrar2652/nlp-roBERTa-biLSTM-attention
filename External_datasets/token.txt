@@ -1,0 +1,5 @@
+[1] HUSSEIN, SHERIF (2021), “Twitter Sentiments Dataset”, Mendeley Data, V1, doi: 10.17632/z9zw7nt5h2.1
+
+[2] https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset
+
+
