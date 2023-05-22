@@ -32,6 +32,11 @@ To assess the robustness and generalizability of our proposed model, we employed
 | [External Apple Twitter Dataset](https://www.kaggle.com/datasets/seriousran/appletwittersentimenttexts) | 1630 tweets |
 | [External US Airline Twitter Dataset](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | 14640 tweets |
 
+## Classical Models
+
+Qi and Shabrina (2023) benchmarked their UK COVID-19 Twitter dataset's 3000 observations using Random Forest, Multinomial NB, and SVM. We additionally benchmarked the same portion of the dataset using the existing tree-based gradient boosting models (LGBM, CatBoost, XGboost, GBM), RandomForest+KNN+MLP stacking, RandomForestBagging, and RandomForest+GBM voting. 
+
+BERT (classical and ensemble), roBERTA (classical and ensemble), Sentence Transformer (classical and ensemble)
 
 ## Pretrained Models
 
@@ -40,6 +45,9 @@ To assess the robustness and generalizability of our proposed model, we employed
 [2] [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased)
 
 [3] [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+
+## XAI
+
 
 ## Requirements
 The installation requirements for the Python packages are already included within the Notebooks, which are not discussed here.
