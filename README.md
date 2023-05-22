@@ -27,8 +27,10 @@ External Tweets and Comments were made on Narendra Modi and other leaders as wel
 | [UK Twitter COVID-19 Dataset]() | Content Cell  |
 | [Global Twitter COVID-19 Dataset]() | Content Cell  |
 | [USA Twitter COVID-19 Dataset]() | Content Cell  |
-| [External Reddit Dataset]() | 36801 comments |
-| [External Twitter Dataset]() | 162980 tweets |
+| [External Reddit Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Reddit_Data.csv) | 36801 comments |
+| [External Twitter Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Twitter_Data.csv) | 162980 tweets |
+| [External Apple Twitter Dataset](https://www.kaggle.com/datasets/seriousran/appletwittersentimenttexts) | 1630 comments |
+| [External US Airline Twitter Dataset](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | 14640 comments |
 
 
 ## Pretrained Models
