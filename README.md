@@ -16,16 +16,15 @@ Created and maintained by Md Abrar Jahin `<abrar.jahin.2652@gmail.com, md-jahin@
 
 *Extended Datasets*
 
-Each dataset contains a column of cleaned tweets which was obtained by preprocessing the raw tweets and comments, accompanied by sentiment label of negative (-1), neutral (0), and posititve (1). 
+In order to address the research gaps identified by Qi and Shabrina (2023), we have expanded the existing COVID-19 Twitter dataset. Our datasets overcome the limitations highlighted in their paper, specifically the short timeline and geographical constraints of the tweets. Each dataset includes a column of cleaned tweets, which have undergone preprocessing of the raw tweets and comments. Additionally, the datasets are accompanied by sentiment labels categorizing the tweets as negative (-1), neutral (0), or positive (1).
 
 *External Datasets*
 
-External Tweets and Comments were made on Narendra Modi and other leaders as well as people's opinion towards the next prime minister of India (in the context with general elections held in India - 2019). The external datasets were created with the help of the Tweepy and Reddit Apis. 
+To assess the robustness and generalizability of our proposed model, we employed external datasets for benchmarking purposes. These additional datasets were utilized to evaluate how well our model performs beyond the confines of the original dataset used for training and testing. By incorporating these external datasets, we aimed to obtain a more comprehensive understanding of our model's capabilities and its ability to handle diverse and unseen data. The inclusion of these benchmark datasets allowed us to gauge the model's performance under varying conditions and validate its effectiveness in real-world scenarios.
 
 | Datasets  | Description |
 | ------------- | ------------- |
-| [UK Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/UK_covid_twitter_data/sample_data_all.csv) | This dataset was 
-developed by collecting COVID-19 tweets from only the major cities in the UK (Qi and Shabrina, 2023) |
+| [UK Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/UK_covid_twitter_data/sample_data_all.csv) | This dataset was developed by collecting COVID-19 tweets from only the major cities in the UK (Qi and Shabrina, 2023) |
 | [Global Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/Extended_datasets/Global_covid_twitter_data/Global.csv) | We extended the existing UK COVID-19 dataset by scraping additional 411885 tweets from 32 English-speaking countries |
 | [USA Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/Extended_datasets/Only_USA_covid_twitter_data/Only_USA.csv) | We extended the existing UK COVID-19 dataset by scraping additional 7500 tweets from only the USA |
 | [External Reddit Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Reddit_Data.csv) | 36801 comments |
