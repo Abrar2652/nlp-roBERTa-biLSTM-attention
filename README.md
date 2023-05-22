@@ -39,6 +39,30 @@ External Tweets and Comments were made on Narendra Modi and other leaders as wel
 
 [3] [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 
+## Requirements
+The installation requirements for the Python packages are already included within the Notebooks, which are not discussed here.
+### CPU Environment
+The Jupyter Notebook can be executed on CPU using Google Colab or Kaggle, but it may take a significant amount of time to obtain the desired outputs.
+### GPU Environment
+Some of the notebooks were executed using Kaggle's GPU T4x2 and GPU P100. Kaggle provides a GPU quota of 30 hours per week, while Colab has a restricted usage limit.
+### TPU Environment
+Some of the notebooks were executed on Kaggle's TPU VM v3-8, which proved to be much faster than GPU. Kaggle provides a quota of 20 hours per week for TPU usage. However, the following additional code needs to be added before constructing the neural network model:
+
+```
+# detect and init the TPU
+tpu = tf.distribute.cluster_resolver.TPUClusterResolver.connect()
+
+# instantiate a distribution strategy
+tpu_strategy = tf.distribute.experimental.TPUStrategy(tpu)
+
+# instantiating the model in the strategy scope creates the model on the TPU
+with tpu_strategy.scope():
+    model = tf.keras.Sequential( … ) # define your model normally
+    model.compile( … )
+
+# train model normally
+model.fit(training_dataset, epochs=EPOCHS, steps_per_epoch=…)
+```
 
 -------
 
