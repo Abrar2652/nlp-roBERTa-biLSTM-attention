@@ -29,8 +29,8 @@ To assess the robustness and generalizability of our proposed model, we employed
 | [USA Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/Extended_datasets/Only_USA_covid_twitter_data/Only_USA.csv) | We extended the existing UK COVID-19 dataset by scraping additional 7500 tweets from only the USA |
 | [External Reddit Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Reddit_Data.csv) | 36801 comments |
 | [External Twitter Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Twitter_Data.csv) | 162980 tweets |
-| [External Apple Twitter Dataset](https://www.kaggle.com/datasets/seriousran/appletwittersentimenttexts) | 1630 comments |
-| [External US Airline Twitter Dataset](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | 14640 comments |
+| [External Apple Twitter Dataset](https://www.kaggle.com/datasets/seriousran/appletwittersentimenttexts) | 1630 tweets |
+| [External US Airline Twitter Dataset](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) | 14640 tweets |
 
 
 ## Pretrained Models
