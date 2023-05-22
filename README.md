@@ -1,4 +1,4 @@
-# nlp-biLSTM-attention
+# nlp-roBERTa-biLSTM-attention
 
 The code repository for the Nature Scientific Reports (2023) paper 
 [Interpretable Sentiment Analysis of COVID-19 Tweets using Attention-based BiLSTM and Twitter-RoBERTa](https://arxiv.org/abs/2210.07182)
