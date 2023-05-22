@@ -24,9 +24,10 @@ External Tweets and Comments were made on Narendra Modi and other leaders as wel
 
 | Datasets  | Description |
 | ------------- | ------------- |
-| [UK Twitter COVID-19 Dataset]() | Content Cell  |
-| [Global Twitter COVID-19 Dataset]() | Content Cell  |
-| [USA Twitter COVID-19 Dataset]() | Content Cell  |
+| [UK Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/UK_covid_twitter_data/sample_data_all.csv) | This dataset was 
+developed by collecting COVID-19 tweets from only the major cities in the UK (Qi and Shabrina, 2023) |
+| [Global Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/Extended_datasets/Global_covid_twitter_data/Global.csv) | We extended the existing UK COVID-19 dataset by scraping additional 411885 tweets from 32 English-speaking countries |
+| [USA Twitter COVID-19 Dataset](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/Extended_datasets/Only_USA_covid_twitter_data/Only_USA.csv) | We extended the existing UK COVID-19 dataset by scraping additional 7500 tweets from only the USA |
 | [External Reddit Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Reddit_Data.csv) | 36801 comments |
 | [External Twitter Dataset](https://www.kaggle.com/datasets/cosmos98/twitter-and-reddit-sentimental-analysis-dataset?select=Twitter_Data.csv) | 162980 tweets |
 | [External Apple Twitter Dataset](https://www.kaggle.com/datasets/seriousran/appletwittersentimenttexts) | 1630 comments |
