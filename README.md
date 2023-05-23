@@ -38,13 +38,17 @@ Qi and Shabrina (2023) benchmarked their UK COVID-19 Twitter dataset's 3000 obse
 
 We also showed how classical models and ensemble work on the pretrained transformer-based tokeizers: [BERT (classical and ensemble)](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/BERT), [roBERTA (classical and ensemble)](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/RoBERTa), [Sentence Transformer (classical and ensemble)](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/SBERT)
 
-## Pretrained Models
+### Pretrained Models
 
 [1] [twitter-roberta-base-sentiment-latest](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest)
 
 [2] [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased)
 
 [3] [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
+
+## Deep-Learning Models
+
+All the implemented DL model architectures with their associated codes and outputs can be found in [Twitter-RoBERTa+LSTM](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM). Our proposed model [ttention-based biLSTM was trained](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention) on Twitter-RoBERTa tokenized inputs.
 
 ## XAI
 You can find the relevant files in [XAI](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention/XAI)
