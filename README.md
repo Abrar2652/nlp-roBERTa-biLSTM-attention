@@ -48,7 +48,7 @@ We also showed how classical models and ensemble work on the pretrained transfor
 
 ## Deep-Learning Models
 
-All the implemented DL model architectures with their associated codes and outputs can be found in [Twitter-RoBERTa+LSTM](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM). Our proposed model [ttention-based biLSTM was trained](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention) on Twitter-RoBERTa tokenized inputs.
+All the implemented DL model architectures with their associated codes and outputs can be found in [Twitter-RoBERTa+LSTM](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM). Our proposed model [Attention-based biLSTM was trained](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention) on Twitter-RoBERTa tokenized inputs.
 
 ## XAI
 You can find the relevant files in [XAI](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention/XAI)
