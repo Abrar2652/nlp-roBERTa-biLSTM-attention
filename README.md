@@ -392,8 +392,9 @@ Below is an illustration of the directory structure of PDEBench.
 
 ------
 
-## Citations
+## Citations for datasets
 
+#### Kaggle
 ```
  @misc{md abrar jahin_2023,
 	title={Extended Covid Twitter Datasets},
@@ -403,7 +404,10 @@ Below is an illustration of the directory structure of PDEBench.
 	author={Md Abrar Jahin},
 	year={2023}
 }
-
+```
+#### Mendeley
+```
+Jahin, Md Abrar (2023), “Extended Covid Twitter Datasets”, Mendeley Data, V1, doi: 10.17632/2ynwykrfgf.1
 ```
 
 
