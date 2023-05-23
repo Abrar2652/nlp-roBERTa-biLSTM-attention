@@ -4,10 +4,8 @@ The code repository for the Nature Scientific Reports (2023) paper
 [Interpretable Sentiment Analysis of COVID-19 Tweets using Attention-based BiLSTM and Twitter-RoBERTa](https://arxiv.org/abs/2210.07182)
 
 
-
-<!---
 ![Visualizations of some COVID-19 tweets](https://github.com/pdebench/PDEBench/blob/main/pdebench_examples.PNG)
---->
+
 
 
 Created and maintained by Md Abrar Jahin `<abrar.jahin.2652@gmail.com, md-jahin@oist.jp>`.
@@ -393,6 +391,20 @@ Below is an illustration of the directory structure of PDEBench.
 
 
 ------
+
+## Citations
+
+```
+ @misc{md abrar jahin_2023,
+	title={Extended Covid Twitter Datasets},
+	url={https://www.kaggle.com/ds/3205649},
+	DOI={10.34740/KAGGLE/DS/3205649},
+	publisher={Kaggle},
+	author={Md Abrar Jahin},
+	year={2023}
+}
+
+```
 
 
 ## License
