@@ -34,9 +34,9 @@ To assess the robustness and generalizability of our proposed model, we employed
 
 ## Classical Models
 
-Qi and Shabrina (2023) benchmarked their UK COVID-19 Twitter dataset's 3000 observations using Random Forest, Multinomial NB, and SVM. We additionally benchmarked the same portion of the dataset using the existing tree-based gradient boosting models (LGBM, CatBoost, XGboost, GBM), RandomForest+KNN+MLP stacking, RandomForestBagging, and RandomForest+GBM voting. 
+Qi and Shabrina (2023) benchmarked their UK COVID-19 Twitter dataset's 3000 observations using Random Forest, Multinomial NB, and SVM. We additionally benchmarked the same portion of the dataset using the existing tree-based gradient boosting models (LGBM, CatBoost, XGboost, GBM), RandomForest+KNN+MLP stacking, RandomForestBagging, and RandomForest+GBM voting. The evaluation of these traditional models was performed individually using [CountVectorizer](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/BoW), [TF-IDF](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/TF-IDF), and [word2vec](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/word2vec) tokenizers as the tokenization methods.
 
-BERT (classical and ensemble), roBERTA (classical and ensemble), Sentence Transformer (classical and ensemble)
+We also showed how classical models and ensemble work on the pretrained transformer-based tokeizers: [BERT (classical and ensemble)](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/BERT), [roBERTA (classical and ensemble)](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/RoBERTa), [Sentence Transformer (classical and ensemble)](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/SBERT)
 
 ## Pretrained Models
 
@@ -47,7 +47,14 @@ BERT (classical and ensemble), roBERTA (classical and ensemble), Sentence Transf
 [3] [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)
 
 ## XAI
+You can find the relevant files in [XAI](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/tree/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention/XAI)
 
+### LIME
+
+![LIME visualization](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention/XAI/Lime/lime2.png)
+
+### SHAP
+![SHAP visualization](https://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention/blob/main/Twitter-RoBERTa%2BLSTM/model4_BiLSTM%2Battention/XAI/SHAP/shap_neu1.png)
 
 ## Requirements
 The installation requirements for the Python packages are already included within the Notebooks, which are not discussed here.
