@@ -87,7 +87,7 @@ model.fit(training_dataset, epochs=EPOCHS, steps_per_epoch=…)
 
 ## Directory Tour
 
-Below is an illustration of the directory structure of PDEBench.
+Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attention.
 
 ```
 📁 nlp-roBERTa-biLSTM-attention
@@ -381,7 +381,7 @@ Below is an illustration of the directory structure of PDEBench.
     📁 nlp-roBERTa-biLSTM-attention\word2vec
     └── 📄 all_models_1.png
     └── 📄 all_models_2.png
-    └── 📄 all_models_3.png
+    └── 📄 all_models_3.pnghttps://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention
     └── 📄 all_models_4.png
     └── 📄 rf_knn_mlp.png
     └── 📄 rf_stacking_voting.png
