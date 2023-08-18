@@ -99,16 +99,24 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     ├── 📄 all_models4.png
     ├── 📄 lgb_knn_mlp.png
     ├── 📄 rf_knn_mlp.png
+    ├── 📄 rf_stacking_voting.png
 └── 📁 BoW
     📁 nlp-roBERTa-biLSTM-attention\BoW
     ├── 📄 all_models_1.png
     ├── 📄 all_models_2.png
     ├── 📄 all_models_3.png
     ├── 📄 all_models_4.png
-    ├── 📄 dask_xgb.png
-    ├── 📄 rf_bagging.png
-    ├── 📄 rf_gb_voting.png
+    ├── 📄 lgb_knn_mlp.png
+    ├── 📁 model1_keras_1_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\BoW\model1_keras_1_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
+    ├── 📁 model2_keras_3_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\BoW\model2_keras_3_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
     ├── 📄 rf_knn_mlp.png
+    ├── 📄 rf_stacking_voting.png
 └── 📁 Data_scraping
     📁 nlp-roBERTa-biLSTM-attention\Data_scraping
     ├── 📄 Twint-data collection.ipynb
@@ -117,12 +125,35 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     📁 nlp-roBERTa-biLSTM-attention\Extended_datasets
     ├── 📁 Global_covid_twitter_data
     │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Global_covid_twitter_data
+    │   ├── 📁 BiLSTM+CNN
+    │   │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Global_covid_twitter_data\BiLSTM+CNN
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
     │   ├── 📄 Global.csv
     │   ├── 📄 Global_twitter_data_preprocessing.ipynb
-    │   ├── 📄 best-model-global.ipynb
-    │   ├── 📄 classification_report1.png
-    │   ├── 📄 classification_report2.png
-    │   ├── 📄 confusion_matrix.png
+    │   ├── 📄 global-tweets_4_baseline_models.ipynb
+    │   ├── 📁 model1_keras_1_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Global_covid_twitter_data\model1_keras_1_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model2_keras_3_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Global_covid_twitter_data\model2_keras_3_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model3_BiLSTM
+    │   │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Global_covid_twitter_data\model3_BiLSTM
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model4_BiLSTM+attention
+    │   │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Global_covid_twitter_data\model4_BiLSTM+attention
+    │   │   ├── 📄 best-model-global.ipynb
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
     │   ├── 📁 preprocessed_dataset
     │   │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Global_covid_twitter_data\preprocessed_dataset
     │   │   ├── 📄 sample_data_global_0.csv
@@ -171,10 +202,30 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     │   ├── 📄 word_freq.png
     ├── 📁 Only_USA_covid_twitter_data
     │   📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Only_USA_covid_twitter_data
+    │   └── 📁 BiLSTM+CNN
+    │       📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Only_USA_covid_twitter_data\BiLSTM+CNN
+    │       ├── 📄 classification_report1.png
+    │       ├── 📄 classification_reports.png
+    │       ├── 📄 confusion_matrix.png
     │   └── 📄 Only_USA.csv
     │   └── 📄 frequency.png
-    │   └── 📁 model3_attention
-    │       📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Only_USA_covid_twitter_data\model3_attention
+    │   └── 📁 model1_keras_1_dense_layers
+    │       📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Only_USA_covid_twitter_data\model1_keras_1_dense_layers
+    │       ├── 📄 classification_report1.png
+    │       ├── 📄 classification_reports.png
+    │       ├── 📄 confusion_matrix.png
+    │   └── 📁 model2_keras_3_dense_layers
+    │       📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Only_USA_covid_twitter_data\model2_keras_3_dense_layers
+    │       ├── 📄 classification_report1.png
+    │       ├── 📄 classification_reports.png
+    │       ├── 📄 confusion_matrix.png
+    │   └── 📁 model3_BiLSTM
+    │       📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Only_USA_covid_twitter_data\model3_BiLSTM
+    │       ├── 📄 classification_report1.png
+    │       ├── 📄 classification_reports.png
+    │       ├── 📄 confusion_matrix.png
+    │   └── 📁 model4_BiLSTM+attention
+    │       📁 nlp-roBERTa-biLSTM-attention\Extended_datasets\Only_USA_covid_twitter_data\model4_BiLSTM+attention
     │       ├── 📄 accuracy.png
     │       ├── 📄 best-model-only-usa.ipynb
     │       ├── 📄 classification_report1.png
@@ -182,6 +233,7 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     │       ├── 📄 confusion_matrix.png
     │       ├── 📄 loss.png
     │       ├── 📄 model_architecture.png
+    │   └── 📄 only_USA-tweets-4_baseline_models.ipynb
     │   └── 📄 only_USA_twitter_data_preprocessing.ipynb
     │   └── 📄 sample_data_only_USA.csv
     │   └── 📄 uk_covid_twitter_sentiment.ipynb
@@ -190,40 +242,131 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     📁 nlp-roBERTa-biLSTM-attention\External_datasets
     ├── 📁 Apple_twitter_sentiments
     │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Apple_twitter_sentiments
-    │   ├── 📄 accuracy.png
-    │   ├── 📄 best-model-apple-twitter.ipynb
-    │   ├── 📄 classification_reports1.png
-    │   ├── 📄 classification_reports2.png
-    │   ├── 📄 confusion_matrix.png
-    │   ├── 📄 loss.png
+    │   ├── 📁 BiLSTM+CNN
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Apple_twitter_sentiments\BiLSTM+CNN
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📄 apple-tweets.ipynb
+    │   ├── 📁 model1_keras_1_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Apple_twitter_sentiments\model1_keras_1_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model2_keras_3_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Apple_twitter_sentiments\model2_keras_3_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model3_BiLSTM
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Apple_twitter_sentiments\model3_BiLSTM
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model4_BiLSTM+attention
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Apple_twitter_sentiments\model4_BiLSTM+attention
+    │   │   └── 📄 accuracy.png
+    │   │   └── 📄 best-model-apple-twitter.ipynb
+    │   │   └── 📄 classification_reports1.png
+    │   │   └── 📄 classification_reports2.png
+    │   │   └── 📄 confusion_matrix.png
+    │   │   └── 📄 loss.png
     ├── 📁 Reddit
     │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Reddit
+    │   ├── 📁 BiLSTM+CNN
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Reddit\BiLSTM+CNN
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
     │   ├── 📄 Reddit_Data.csv
-    │   ├── 📄 Screenshot 2023-05-08 025117.png
-    │   ├── 📄 Screenshot 2023-05-08 025141.png
-    │   ├── 📄 Screenshot 2023-05-08 025820.png
-    │   ├── 📄 Screenshot 2023-05-08 025915.png
-    │   ├── 📄 Screenshot 2023-05-08 025934.png
-    │   ├── 📄 Screenshot 2023-05-08 025955.png
-    │   ├── 📄 Screenshot 2023-05-08 030042.png
-    │   ├── 📄 best-model-reddit.ipynb
-    │   ├── 📄 classification_reports.png
-    │   ├── 📄 cm.png
+    │   ├── 📁 model1_keras_1_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Reddit\model1_keras_1_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model2_keras_3_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Reddit\model2_keras_3_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model3_BiLSTM
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Reddit\model3_BiLSTM
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model4_BiLSTM+attention
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Reddit\model4_BiLSTM+attention
+    │   │   ├── 📄 LIME.png
+    │   │   ├── 📄 SHAP_bar.png
+    │   │   ├── 📄 SHAP_bar_ascending.png
+    │   │   ├── 📄 SHAP_bar_descending.png
+    │   │   ├── 📄 SHAP_explain.png
+    │   │   ├── 📄 best-model-reddit.ipynb
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   │   ├── 📄 target_predictions.png
+    │   ├── 📄 reddit-tweets-1.ipynb
+    │   ├── 📄 reddit-tweets-2.ipynb
     ├── 📁 Twitter
     │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Twitter
+    │   ├── 📁 BiLSTM+CNN
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Twitter\BiLSTM+CNN
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
     │   ├── 📄 Twitter_Data.csv
-    │   ├── 📄 best-model-twitter-external.ipynb
-    │   ├── 📄 classification_report1.png
-    │   ├── 📄 classification_report2.png
-    │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model1_keras_1_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Twitter\model1_keras_1_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model2_keras_3_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Twitter\model2_keras_3_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model3_BiLSTM
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Twitter\model3_BiLSTM
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model4_BiLSTM+attention
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\Twitter\model4_BiLSTM+attention
+    │   │   ├── 📄 best-model-twitter-external.ipynb
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📄 twitter-tweets-2.ipynb
+    │   ├── 📄 twitter_tweets_1.ipynb
     ├── 📁 US_airlines_twitter_sentiments
     │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\US_airlines_twitter_sentiments
-    │   ├── 📄 accuracy.png
-    │   ├── 📄 best-model-us-airlines.ipynb
-    │   ├── 📄 classification_report1.png
-    │   ├── 📄 classification_report2.png
-    │   ├── 📄 confusion_matrix.png
-    │   ├── 📄 loss.png
+    │   ├── 📁 BiLSTM+CNN
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\US_airlines_twitter_sentiments\BiLSTM+CNN
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model1_keras_1_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\US_airlines_twitter_sentiments\model1_keras_1_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model2_keras_3_dense_layers
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\US_airlines_twitter_sentiments\model2_keras_3_dense_layers
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model3_BiLSTM
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\US_airlines_twitter_sentiments\model3_BiLSTM
+    │   │   ├── 📄 classification_report1.png
+    │   │   ├── 📄 classification_report2.png
+    │   │   ├── 📄 confusion_matrix.png
+    │   ├── 📁 model4_BiLSTM+attention
+    │   │   📁 nlp-roBERTa-biLSTM-attention\External_datasets\US_airlines_twitter_sentiments\model4_BiLSTM+attention
+    │   │   └── 📄 best-model-us-airlines.ipynb
+    │   │   └── 📄 classification_report1.png
+    │   │   └── 📄 classification_report2.png
+    │   │   └── 📄 confusion_matrix.png
     ├── 📄 token.txt
 └── 📄 LICENSE
 └── 📁 Previous_research
@@ -240,6 +383,7 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     ├── 📄 cardiff_all_models_3.png
     ├── 📄 cardiff_all_models_4.png
     ├── 📄 lgb+knn+mlp.png
+    ├── 📄 rf_stacking_voting.png
     ├── 📄 roberta_base_rf+knn+mlp.png
 └── 📁 SBERT
     📁 nlp-roBERTa-biLSTM-attention\SBERT
@@ -250,12 +394,22 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     ├── 📄 all_models_5.png
     ├── 📄 lgb_knn_mlp.png
     ├── 📄 rf_knn_mlp.png
+    ├── 📄 rf_stacking_voting.png
 └── 📁 TF-IDF
     📁 nlp-roBERTa-biLSTM-attention\TF-IDF
     ├── 📄 all_models_1.png
     ├── 📄 all_models_2.png
     ├── 📄 all_models_3.png
     ├── 📄 all_models_4.png
+    ├── 📄 lgbm_knn_mlp.png
+    ├── 📁 model1_keras_1_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\TF-IDF\model1_keras_1_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
+    ├── 📁 model2_keras_3_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\TF-IDF\model2_keras_3_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
     ├── 📄 rf_bagging.png
     ├── 📄 rf_knn_mlp.png
     ├── 📄 rf_stacking_voting.png
@@ -286,23 +440,24 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     │   ├── 📄 model_architecture.png
     ├── 📁 model1_keras_1_dense_layers
     │   📁 nlp-roBERTa-biLSTM-attention\Twitter-RoBERTa+LSTM\model1_keras_1_dense_layers
-    │   ├── 📄 Screenshot 2023-04-20 215305.png
-    │   ├── 📄 accuracy1.png
-    │   ├── 📄 classification_report.png
+    │   ├── 📄 accuracy.png
+    │   ├── 📄 classification_report1.png
+    │   ├── 📄 classification_report2.png
     │   ├── 📄 confusion_matrix.png
-    │   ├── 📄 loss1.png
+    │   ├── 📄 loss.png
+    │   ├── 📄 model1.ipynb
     │   ├── 📄 model_architecture.png
     │   ├── 📄 summary.png
     ├── 📁 model2_keras_3_dense_layers
     │   📁 nlp-roBERTa-biLSTM-attention\Twitter-RoBERTa+LSTM\model2_keras_3_dense_layers
-    │   ├── 📄 accuracy1.png
+    │   ├── 📄 accuracy.png
     │   ├── 📄 classification_report.png
     │   ├── 📄 classification_report1.png
     │   ├── 📄 confusion_matrix.png
-    │   ├── 📄 loss1.png
+    │   ├── 📄 loss.png
+    │   ├── 📄 model2.ipynb
     │   ├── 📄 model_architecture.png
     │   ├── 📄 model_summary.png
-    │   ├── 📄 train_val_loss.png
     ├── 📁 model3_BiLSTM
     │   📁 nlp-roBERTa-biLSTM-attention\Twitter-RoBERTa+LSTM\model3_BiLSTM
     │   ├── 📄 accuracy.png
@@ -310,15 +465,10 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     │   ├── 📄 classification_report2.png
     │   ├── 📄 confusion_matrix.png
     │   ├── 📄 loss.png
-    │   ├── 📄 lr_vs_epoch.png
     │   ├── 📄 model_architecture.png
     │   ├── 📄 summary.png
     │   ├── 📄 target_val_counts.png
-    │   ├── 📄 train_acc_vs_lr.png
-    │   ├── 📄 train_loss_vs_lr.png
-    │   ├── 📄 training_val.png
-    │   ├── 📄 val_acc_vs_lr.png
-    │   ├── 📄 val_loss_vs_lr.png
+    │   ├── 📄 train_val.png
     ├── 📁 model4_BiLSTM+attention
     │   📁 nlp-roBERTa-biLSTM-attention\Twitter-RoBERTa+LSTM\model4_BiLSTM+attention
     │   └── 📁 XAI
@@ -365,6 +515,7 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     │       └── 📄 best-model-uk-twitter-all.ipynb
     │       └── 📄 classification_report1.png
     │       └── 📄 classification_report2.png
+    │       └── 📄 collage.png
     │       └── 📄 confusion_matrix.png
     │       └── 📄 loss.png
 └── 📁 UK_covid_twitter_data
@@ -376,16 +527,28 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     ├── 📄 tweets distribution.png
     ├── 📄 uk_twitter_data_preprocessing.ipynb
 └── 📄 list.md
+└── 📄 sentiment_distribution_barchart.png
+└── 📄 sentiment_distribution_pie_chart.png
 └── 📄 uk-twitter-3k-classical-modelling.ipynb
 └── 📁 word2vec
     📁 nlp-roBERTa-biLSTM-attention\word2vec
     └── 📄 all_models_1.png
     └── 📄 all_models_2.png
-    └── 📄 all_models_3.pnghttps://github.com/Abrar2652/nlp-roBERTa-biLSTM-attention
+    └── 📄 all_models_3.png
     └── 📄 all_models_4.png
+    └── 📄 lgb_knn_mlp.png
+    └── 📁 model1_keras_1_dense_layers
+        📁 nlp-roBERTa-biLSTM-attention\word2vec\model1_keras_1_dense_layers
+        ├── 📄 classification_report.png
+        ├── 📄 confusion_matrix.png
+    └── 📁 model2_keras_3_dense_layers
+        📁 nlp-roBERTa-biLSTM-attention\word2vec\model2_keras_3_dense_layers
+        ├── 📄 classification_report.png
+        ├── 📄 confusion_matrix.png
     └── 📄 rf_knn_mlp.png
     └── 📄 rf_stacking_voting.png
 
+​
 
 ```
 
