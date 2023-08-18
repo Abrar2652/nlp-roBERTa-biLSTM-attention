@@ -90,6 +90,7 @@ model.fit(training_dataset, epochs=EPOCHS, steps_per_epoch=…)
 Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attention.
 
 ```
+
 📁 nlp-roBERTa-biLSTM-attention
 └── 📁 BERT
     📁 nlp-roBERTa-biLSTM-attention\BERT
@@ -98,6 +99,14 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     ├── 📄 all_models3.png
     ├── 📄 all_models4.png
     ├── 📄 lgb_knn_mlp.png
+    ├── 📁 model1_keras_1_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\BERT\model1_keras_1_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
+    ├── 📁 model2_keras_3_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\BERT\model2_keras_3_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
     ├── 📄 rf_knn_mlp.png
     ├── 📄 rf_stacking_voting.png
 └── 📁 BoW
@@ -393,6 +402,14 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
     ├── 📄 all_models_4.png
     ├── 📄 all_models_5.png
     ├── 📄 lgb_knn_mlp.png
+    ├── 📁 model1_keras_1_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\SBERT\model1_keras_1_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
+    ├── 📁 model2_keras_3_dense_layers
+    │   📁 nlp-roBERTa-biLSTM-attention\SBERT\model2_keras_3_dense_layers
+    │   ├── 📄 classification_report.png
+    │   ├── 📄 confusion_matrix.png
     ├── 📄 rf_knn_mlp.png
     ├── 📄 rf_stacking_voting.png
 └── 📁 TF-IDF
