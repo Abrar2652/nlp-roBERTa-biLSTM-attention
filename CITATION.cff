@@ -1,0 +1,10 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Jahin
+  given-names: Md Abrar
+orcid: https://orcid.org/0000-0002-1623-3859
+title:Abrar2652/nlp-roBERTa-biLSTM-attention: v1.0.0
+version: v1.0.0
+date-released: 2024-09-25
+                               
