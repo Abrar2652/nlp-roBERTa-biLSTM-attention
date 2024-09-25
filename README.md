@@ -585,7 +585,19 @@ Below is an illustration of the directory structure of nlp-roBERTa-biLSTM-attent
 ```
 Jahin, Md Abrar (2023), “Extended Covid Twitter Datasets”, Mendeley Data, V1, doi: 10.17632/2ynwykrfgf.1
 ```
-
+#### Code
+```
+@software{md_abrar_jahin_2024_13840678,
+  author       = {Md Abrar Jahin},
+  title        = {Abrar2652/nlp-roBERTa-biLSTM-attention: v1.0.0},
+  month        = sep,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.13840678},
+  url          = {https://doi.org/10.5281/zenodo.13840678}
+}
+```
 
 ## License
 
