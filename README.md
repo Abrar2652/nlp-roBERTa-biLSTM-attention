@@ -3,6 +3,7 @@
 The code repository for the Nature Scientific Reports (2023) paper 
 [Interpretable Sentiment Analysis of COVID-19 Tweets using Attention-based BiLSTM and Twitter-RoBERTa](https://arxiv.org/abs/2210.07182)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13840678.svg)](https://doi.org/10.5281/zenodo.13840678)
 
 Created and maintained by Md Abrar Jahin `<abrar.jahin.2652@gmail.com, mdabrar.jahin@oist.jp>`.
 
